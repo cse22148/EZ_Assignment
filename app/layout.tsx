@@ -3,10 +3,10 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
-// ✅ Use Inter instead of Geist (modern, clean font)
+ 
 const inter = Inter({ subsets: ["latin"] });
 
-// ✅ Use Roboto Mono instead of Geist_Mono (for monospace text)
+ 
 const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
